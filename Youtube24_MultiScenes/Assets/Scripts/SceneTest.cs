@@ -52,7 +52,8 @@ public class SceneTest : MonoBehaviour {
         SceneManager.UnloadSceneAsync(newScene);
 
         // load the scene additively
-        SceneManager.LoadScene("MyScene", LoadSceneMode.Additive);
+       
+        //  SceneManager.LoadScene("MyScene", LoadSceneMode.Additive);
         
     }
 
