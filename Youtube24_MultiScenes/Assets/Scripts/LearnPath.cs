@@ -22,10 +22,10 @@ public class LearnPath : MonoBehaviour
 
         // open the URL in the default web browser
         Debug.Log("Opening URL: https://www.unity3d.com");
-        Application.OpenURL("https://www.unity3d.com");
+        //Application.OpenURL("https://www.unity3d.com");
 
         // quit the application (only works in built applications, not in the editor)
-        Application.Quit();
+       // Application.Quit();
     }
 
     // Update is called once per frame
