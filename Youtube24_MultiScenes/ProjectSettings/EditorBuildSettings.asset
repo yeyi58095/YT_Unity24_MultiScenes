@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MyScene.unity
     guid: a3390781a9522b9469177d89b1c590ee
+  - enabled: 1
+    path: Assets/Scenes/KeyInputImplement.unity
+    guid: 6426cffb1b47131449b51a1a795ec937
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
