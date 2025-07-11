@@ -59,6 +59,6 @@ public class WaveControl : MonoBehaviour {
         // set the right IK
         animator.SetIKPosition(AvatarIKGoal.RightHand, target.position);
         
-        animator.SetIKRotation(AvatarIKGoal.RightHand, target.GetComponent<Quaternion>());
+        animator.SetIKRotation(AvatarIKGoal.RightHand, target.rotation);
     }
 }
